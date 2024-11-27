@@ -3,8 +3,8 @@
   --background-dark: #1c1c1c;
   --text-light: #000000;
   --text-dark: #e5e1e1;
-  --accent: #0F222D;
-  --accent2: #34568C;
+  --accent: #0f222d;
+  --accent2: #34568c;
   --message-user: #e1f5fe;
   --message-bot: #e8f5e9;
   --border: #ccc;
@@ -42,7 +42,7 @@ body.dark-mode {
 
 .icon {
   width: 30px;
-  height: 30px; 
+  height: 30px;
 }
 
 .switch-mode {
@@ -128,8 +128,6 @@ body.dark-mode {
   border-radius: 5px;
 }
 
-
-
 .chat-input button {
   padding: 10px;
   background-color: var(--accent2);
@@ -187,7 +185,7 @@ body.dark-mode {
   text-align: center;
 }
 
-.modal-content button, 
+.modal-content button,
 .modal-content .image-upload {
   display: block; /* Aligne les éléments verticalement */
   margin: 10px auto; /* Centre horizontalement */
@@ -203,16 +201,16 @@ body.dark-mode {
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.modal-content button:hover, 
+.modal-content button:hover,
 .modal-content .image-upload:hover {
   background-color: #273b63;
 }
 
-.modal-content button:focus, 
+.modal-content button:focus,
 .modal-content .image-upload:focus {
   outline: none;
 }
 
 .modal-content .image-upload input[type="file"] {
-  display: none; 
+  display: none;
 }

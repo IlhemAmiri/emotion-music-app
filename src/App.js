@@ -164,7 +164,9 @@ function App() {
             onChange={(e) => setCurrentMessage(e.target.value)}
           />
 
-          <button className="icon-button" onClick={() => setShowModal(true)}>📷</button>
+          <button className="icon-button" onClick={() => setShowModal(true)}>
+            📷
+          </button>
           <button onClick={handleSendMessage}>➤</button>
         </div>
       </div>
@@ -173,9 +175,7 @@ function App() {
         <div className="modal">
           <div className="modal-content">
             <p>What do you want to do?</p>
-            <button onClick={() => setShowCamera(true)}>
-            Take a photo
-            </button>
+            <button onClick={() => setShowCamera(true)}>Take a photo</button>
             <label className="image-upload">
               <input type="file" onChange={handleImageUpload} />
               upload an image
