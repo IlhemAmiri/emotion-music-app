@@ -95,6 +95,7 @@ function App() {
       reader.onloadend = () => setImagePreview(reader.result);
       reader.readAsDataURL(file);
     }
+    setShowModal(false);
   };
 
   const savePhoto = () => {
@@ -104,6 +105,7 @@ function App() {
         setImagePreview(imageSrc); // Pour prévisualisation
         setSelectedImage(imageSrc); // Base64 directement
         setShowCamera(false);
+        setShowModal(false);
       } else {
         console.error("Unable to capture the screenshot.");
       }
